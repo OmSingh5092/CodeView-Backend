@@ -3,14 +3,12 @@ const http = require('http');
 const app = express();
 const config = require('./config');
 const database = require('./database/database');
-const session = require('express-session');
 const cors = require('cors');
 
 require('./passport');
 
 //Applying middlewares
 app.use(express.json());
-app.use(session(config.session));
 app.use(cors());
 
 //Importing rotues
