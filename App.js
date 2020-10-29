@@ -3,18 +3,22 @@ const http = require('http');
 const app = express();
 const config = require('./config');
 const database = require('./database/database');
+const path = require('path')
 const cors = require('cors');
 
 require('./passport');
 
+
 //Applying middlewares
 app.use(express.json());
 app.use(cors());
+app.use(express.static(path.join(__dirname,'build')))
 
 //Web Page end point
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname,'build','index.html'))
 })
+
 
 //Importing rotues
 const signInRoute = require('./routes/signinRouter');
