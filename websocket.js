@@ -5,11 +5,15 @@ const Interviewer = require('./database/schema/interviewer');
 const codeWebSocket= (socket,io)=>{
     socket.on("code",(data)=>{
         console.log("Data",data);
-        const {code,room,language} = data;
-        Room.updateOne({_id:room},{code:code,language:language})
-        .then((doc)=>{
-            io.emit(room+"/updateCode",{code:code,language:language});
-        })
+        const {code,room,language,sender} = data;
+
+        setTimeout(()=>{
+            Room.updateOne({_id:room},{code:code,language:language})
+            .then((doc)=>{
+                io.emit(room+"/updateCode",{code:code,language:language,sender:sender});
+            })
+        },3000);
+        
     })
 }
 

@@ -1,6 +1,6 @@
 const config = {
     app:{
-        port:process.env.PORT||8000
+        port:process.env.PORT||3000
     },
     session:{
         // It holds the secret key for session 
