@@ -11,6 +11,11 @@ require('./passport');
 app.use(express.json());
 app.use(cors());
 
+//Web Page end point
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname,'build','index.html'))
+})
+
 //Importing rotues
 const signInRoute = require('./routes/signinRouter');
 const interviewerRoute=require('./routes/interviewerRouter');

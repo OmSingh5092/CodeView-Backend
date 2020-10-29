@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c0eac27e.chunk.css",
+    "main.js": "./static/js/main.a2bfa625.chunk.js",
+    "main.js.map": "./static/js/main.a2bfa625.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.851de3a6.js",
+    "runtime-main.js.map": "./static/js/runtime-main.851de3a6.js.map",
+    "static/js/2.47aee656.chunk.js": "./static/js/2.47aee656.chunk.js",
+    "static/js/2.47aee656.chunk.js.map": "./static/js/2.47aee656.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.d4bbd21b757c05238eebb37b91415947.js": "./precache-manifest.d4bbd21b757c05238eebb37b91415947.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.c0eac27e.chunk.css.map": "./static/css/main.c0eac27e.chunk.css.map",
+    "static/js/2.47aee656.chunk.js.LICENSE.txt": "./static/js/2.47aee656.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/Roboto-Medium.58aef543.ttf",
+    "static/media/coding.png": "./static/media/coding.4b817883.png",
+    "static/media/google.png": "./static/media/google.1b943d72.png",
+    "static/media/live.png": "./static/media/live.f8e19943.png",
+    "static/media/logo.svg": "./static/media/logo.5d5d9eef.svg",
+    "static/media/offline.png": "./static/media/offline.e5e001a4.png",
+    "static/media/user.png": "./static/media/user.a48aca27.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.851de3a6.js",
+    "static/js/2.47aee656.chunk.js",
+    "static/css/main.c0eac27e.chunk.css",
+    "static/js/main.a2bfa625.chunk.js"
+  ]
+}
