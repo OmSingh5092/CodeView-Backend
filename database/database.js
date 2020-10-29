@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const config = require('../config');
 
-mongoose.connect(config.database.local.uri);
+mongoose.connect(config.database.prod.uri);
 
 const connection = mongoose.connection;
 

@@ -20,7 +20,8 @@ const config = {
             uri:"mongodb://localhost:27017/CodeView"
         },
         prod:{
-            
+            password:"DGUNE5sDMR88mEEB",
+            uri: "mongodb+srv://code-view:DGUNE5sDMR88mEEB@cluster0.cvgzr.mongodb.net/CodeView?retryWrites=true&w=majority"
         }
     },
     gcp:{
