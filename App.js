@@ -45,6 +45,6 @@ io.on("connection",(socket)=>{
     websocket.candidateStatusSocket(socket,io);
 })
 
-server.listen(config.app.local.port, ()=>{
+server.listen(config.app.port, ()=>{
     console.log("\n\n App listening... \n\n");
 })
