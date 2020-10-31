@@ -25,9 +25,6 @@ const room= new Schema(
         language:{
             type:Number,
         },
-        notes:{
-            type:String,
-        }
     },{
         timestamps:true
     },

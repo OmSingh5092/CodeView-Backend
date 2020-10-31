@@ -26,6 +26,7 @@ const interviewerRoute=require('./routes/interviewerRouter');
 const roomRoute = require('./routes/roomRouter');
 const candidateRoute = require('./routes/candidateRouter')
 const chatRoute = require('./routes/chatRouter');
+const notesRoute = require('./routes/notesRouter');
 
 //Applying routes
 app.use('/api/signin',signInRoute);
@@ -33,6 +34,7 @@ app.use('/api/interviewer',interviewerRoute);
 app.use('/api/room',roomRoute);
 app.use('/api/candidate',candidateRoute);
 app.use('/api/chat',chatRoute);
+app.use('/api/notes',notesRoute);
 const server = http.createServer(app);
 
 //Websocket configuration

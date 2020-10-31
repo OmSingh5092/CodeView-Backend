@@ -149,11 +149,7 @@ const removeInterviewer = async (req,res)=>{
             success:false,
             msg:"Update unsuccessfull",
         })
-    }
-
-    
-
-    
+    }  
 }
 
 const getRoomsByInterviewer = (req,res)=>{
